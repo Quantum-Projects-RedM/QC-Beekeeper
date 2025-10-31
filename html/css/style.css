@@ -1,0 +1,257 @@
+@import url('https://fonts.cdnfonts.com/css/gilroy-bold');
+@import url('https://db.onlinewebfonts.com/c/9b00faf25959e5d0a3615c085585a325?family=RDR+Catalogue+Bold+Bold');
+@import url('https://db.onlinewebfonts.com/c/ab21a97b9cae2e116d8d1473baefc9f0?family=RDR+Lino+Regular');
+* {
+  margin: 0;
+  padding: 0;
+  user-select: none;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.beekeep-system {
+  width: 42.4%;
+  height: 100%;
+  animation: rightSide 1s ease-in-out;
+  background: linear-gradient(
+    270deg,
+    rgba(0, 0, 0, 0) 2.65%,
+    rgba(0, 0, 0, 0.75) 38.06%,
+    #000000 100%
+  );
+}
+
+.beekeep-image {
+  position: absolute;
+  width: 21%;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(../imgs/weed-left.png);
+}
+
+.beekeep-elipse {
+  position: absolute;
+  border-radius: 25.4167vw;
+  opacity: 0.55;
+  background: #000000;
+  filter: blur(12.8385vw);
+  margin-top: 27vw;
+  margin-left: -7vw;
+  width: 25.4%;
+  height: 11.9%;
+}
+
+.beekeep-elipse-2 {
+  position: absolute;
+  border-radius: 25.4167vw;
+  opacity: 0.55;
+  background: #000000;
+  margin-left: -7vw;
+  filter: blur(12.8385vw);
+  width: 25.4%;
+  height: 11.9%;
+}
+
+.beekeep-big-image {
+  position: absolute;
+  width: 16.552vw;
+  height: 16.552vw;
+  margin-left: 6.5vw;
+  margin-top: 2vw;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(../imgs/apiarymenu.png);
+}
+
+.beekeep-big {
+  position: absolute;
+  width: 16.0938vw;
+  height: 27.5521vw;
+  margin-left: 6.5vw;
+  margin-top: 18vw;
+}
+
+.beekeep-label {
+  color: #fff;
+  text-align: center;
+  font-family: "RDR Lino Regular";
+  font-size: 2.1628vw;
+  font-style: normal;
+
+  line-height: normal;
+  letter-spacing: 0.0116vw;
+}
+
+.beekeep-label span {
+  font-family: "RDR Lino Regular";
+}
+
+.beekeep-span {
+  color: rgba(255, 255, 255, 0.45);
+  text-align: center;
+  font-family: "RDR Lino Regular";
+  width: 100%;
+  font-size: 0.6771vw;
+  font-style: normal;
+  font-weight: 300;
+  margin-top: 0.3vw;
+  line-height: 180%; /* 0px */
+  letter-spacing: 0.0068vw;
+}
+
+.beekeep-details {
+  width: 100%;
+  margin-top: 1.5vw;
+  height: 13.0208vw;
+}
+
+.beekeep-detail:nth-child(1) {
+  margin-top: 0;
+}
+
+.beekeep-detail {
+  width: 100%;
+  display: flex;
+  height: 2.5396vw;
+  margin-top: 0.9vw;
+}
+
+.beekeep-buttons {
+  width: 100%;
+  height: 5.2396vw;
+  margin-top: 2vw;
+}
+
+.beekeep-button:nth-child(1) {
+  margin-left: 10px;
+}
+
+.beekeep-button {
+  border-radius: 0.1563vw;
+  background-image: url(../imgs/selection_box_bg_1d.png);
+  width: 30%;
+  margin-left: 5%;
+  line-height: 1.8vw;
+  color: #fff;
+  font-family: "RDR Lino Regular";
+  font-size: 0.625vw;
+  text-align: center;
+  height: 1.7708vw;
+  float: left;
+  transition: 0.4s;
+}
+
+.beekeep-button-big {
+  border-radius: 0.1563vw;
+  border: 0.0521vw solid #e2c792;
+  background: linear-gradient(180deg, #e2c792 0%, rgba(207, 153, 53, 0.671) 100%);
+  width: 50%;
+  color: #fff;
+  line-height: 1.9vw;
+  font-family: "RDR Lino Regular";
+  font-size: 0.625vw;
+  text-align: center;
+  margin-top: -0.4vw;
+  margin-left: 4vw;
+  height: 2.1354vw;
+  transition: 0.4s;
+}
+
+.beekeep-mini-buttons {
+  width: 141%;
+  height: 60%;
+  margin-top: -69px;
+}
+
+.beekeep-detail-first {
+  width: 2.6vw;
+  height: 100%;
+  border-radius: 0.2083vw;
+  border: 0.0521vw solid #e2c792;
+  background: radial-gradient(
+    62.19% 62.19% at 50% 50%,
+    rgba(244, 248, 0, 0.25) 0%,
+    rgba(102, 100, 0, 0.25) 100%
+  );
+}
+
+.beekeep-detail-first div {
+  width: 80%;
+  height: 80%;
+  margin-top: 10%;
+  margin-left: 10%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(../imgs/beekeep-example.png);
+}
+
+.beekeep-detail-dd {
+  border-radius: 0.2083vw;
+  width: 80%;
+  margin-left: 0.5vw;
+  height: 100%;
+  /* background: radial-gradient( 83.13% 83.13% at 50% 50%, rgba(255, 255, 255, 0.15) 0%, rgba(255, 255, 255, 0) 100% ); */
+  background-image: url(../imgs/selection_box_bg_1d.png);
+}
+
+.beekeep-detail-dd-label {
+  color: #e2c792;
+  text-shadow: 0px 0.2083vw 1.4583vw rgba(231, 175, 19, 0.55);
+  font-family: "RDR Lino Regular";
+  margin-left: 0.3vw;
+  margin-top: 0.35vw;
+  font-size: 0.725vw;
+  font-style: normal;
+  font-weight: 600;
+}
+
+.beekeep-detail-dd-full {
+  border-radius: 0.1042vw;
+  width: 95%;
+  height: 0.7292vw;
+  margin-left: 0.3vw;
+  margin-top: 0.25vw;
+  overflow: hidden;
+  background: rgba(255, 255, 255, 0.09);
+}
+
+.beekeep-detail-dd-bar {
+  background: #e2c792;
+  height: 100%;
+  transition: 0.3s;
+  border-radius: 0.1vw;
+}
+
+.beekeep-button:hover {
+  cursor: pointer;
+  scale: 0.95;
+}
+
+.beekeep-button-big:hover {
+  scale: 1.05;
+  cursor: pointer;
+}
+
+@keyframes rightSide {
+  0% {
+    opacity: 0;
+    transform: translateX(-50%);
+  }
+
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
