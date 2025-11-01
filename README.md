@@ -2,7 +2,7 @@
 
 A comprehensive beekeeping system for RedM servers using RSG-Core framework with realistic apiary mechanics, wild hive hunting, and resource management.
 
-![Version](https://img.shields.io/badge/version-1.0.2-blue.svg)
+![Version](https://img.shields.io/badge/version-1.0.3-blue.svg)
 ![Framework](https://img.shields.io/badge/framework-RSG--Core-green.svg)
 
 ## Features
@@ -58,4 +58,4 @@ Config.ApiaryCooldown = 5           -- Minutes between harvests
 
 ---
 
-**Version**: 1.0.2 | **Framework**: RSG-Core
+**Version**: 1.0.3 | **Framework**: RSG-Core
