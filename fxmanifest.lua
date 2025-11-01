@@ -1,11 +1,11 @@
 fx_version 'cerulean'
 rdr3_warning 'I acknowledge that this is a prerelease build of RedM, and I am aware my resources *will* become incompatible once RedM ships.'
 game 'rdr3'
-author 'Artmines - Quantum Projects' 
+author 'Quantum Projects Community' 
 description 'Quantum Beekeeping | Dev: Artmines'
 quantum_discord 'https://discord.gg/kJ8ZrGM8TS'
 use_experimental_fxv2_oal 'yes'
-version '1.0.2'
+version '1.0.3'
 
 shared_scripts {
     '@ox_lib/init.lua',
